@@ -27,7 +27,7 @@ Acesse o diretório `backend` e rode o comando `yarn start` ou `npm start` para 
 
 Acesse o diretório `fronted` e rode o comando `yarn start` ou `npm start` para ver o fronted da aplicação em `http:localhost:xxxx`
 
-#### Você pode acessar a aplicação a partir deste <a href="">link<\a>
+#### Você pode acessar a aplicação a partir deste <a href="">link</a>
 
 <hr>
 
