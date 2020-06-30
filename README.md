@@ -1,7 +1,7 @@
 # <p align="center"> 📦 &nbsp; Palpite Box &nbsp; 📦  </p>
 
 <p align="justify">
-  Aplicação desenvolvida durante a Semana Fullstack, disponibilizada pela plataforma DevPleno e lecionada pelo mestre em SI e desenvolvedor Tulio Faria.
+  Aplicação desenvolvida durante o workshop Semana Fullstack Master, disponibilizada pela plataforma DevPleno e lecionada pelo mestre em SI e desenvolvedor Tulio Faria.
 
   O deploy da aplicação ficou à cargo do Vercel.
 </p>
