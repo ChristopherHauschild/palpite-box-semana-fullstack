@@ -1,8 +1,8 @@
-# <p align="center"> <img src="https://github.com/ChristopherHauschild/palpite-box-semana-fullstack/blob/master/logo.png?raw=true">  </p>
+# <p align="center"> 📦 &nbsp; Palpite Box &nbsp; 📦  </p>
 
 <p align="justify">
   Aplicação desenvolvida durante o workshop Semana Fullstack Master, disponibilizada pela plataforma DevPleno e lecionada pelo mestre em SI e desenvolvedor Tulio Faria. Consiste numa caixa de sugestões na qual os clientes podem deixar opiniões e sugestões sobre os estabelecimentos comerciais e, em troca, receber cupons de descontos e vantagens.
-</p>
+</p> <br /> <br />
 
 <div align="center">
   <img src="https://github.com/ChristopherHauschild/palpite-box-semana-fullstack/blob/master/logo.png?raw=true">
