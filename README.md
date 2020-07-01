@@ -5,7 +5,7 @@
 </p>
 
 <div align="center">
-  <img src="logo.png">
+  <img src="https://github.com/ChristopherHauschild/palpite-box-semana-fullstack/blob/master/logo.png?raw=true">
 </div>
 
 ## Tecnologias utilizadas: :computer:
