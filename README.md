@@ -1,10 +1,12 @@
 # <p align="center"> 📦 &nbsp; Palpite Box &nbsp; 📦  </p>
 
 <p align="justify">
-  Aplicação desenvolvida durante o workshop Semana Fullstack Master, disponibilizada pela plataforma DevPleno e lecionada pelo mestre em SI e desenvolvedor Tulio Faria.
-
-  O deploy da aplicação ficou à cargo do Vercel.
+  Aplicação desenvolvida durante o workshop Semana Fullstack Master, disponibilizada pela plataforma DevPleno e lecionada pelo mestre em SI e desenvolvedor Tulio Faria. Consiste numa caixa de sugestões na qual os clientes podem deixar opiniões e sugestões sobre os estabelecimentos comerciais e, em troca, receber cupons de descontos e vantagens.
 </p>
+
+<div align="center">
+  <img src="logo.png">
+</div>
 
 ## Tecnologias utilizadas: :computer:
 
@@ -14,6 +16,8 @@
   <li>NextJS</li>
   <li>Tailwind</li>
 </ul>
+
+#### Acessar o layout no <a href="https://www.figma.com/file/HxvAYhS6l7UDI49u8uLdaC/palpite-box">Figma</a>.
 
 ## Instalação: :rocket:
 
@@ -27,7 +31,10 @@ Acesse o diretório `backend` e rode o comando `yarn start` ou `npm start` para 
 
 Acesse o diretório `fronted` e rode o comando `yarn start` ou `npm start` para ver o fronted da aplicação em `http:localhost:xxxx`
 
-#### Você pode acessar a aplicação a partir deste <a href="">link</a>
+## Acessar aplicação: :link:
+
+O deploy da aplicação ficou à cargo do Vercel.
+#### Você pode acessá-la a partir deste <a href="">link</a>.
 
 <hr>
 
