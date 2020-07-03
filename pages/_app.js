@@ -7,7 +7,7 @@ import Layout from '../components/Layout'
 // pageProps: renderiza propriedades da página atual
 const MyApp = ({ Component, pageProps }) => {
   return (
-    <div>
+    <div className='h-screen'>
       <Layout>
         <Component {...pageProps} />
       </Layout>
