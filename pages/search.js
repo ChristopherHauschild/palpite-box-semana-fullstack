@@ -78,7 +78,7 @@ const Search = () => {
             )})
           }
         </div>
-        <button className='bg-teal-500 mt-8 my-16 px-6 py-4 text-lg font-bold text-white rounded-lg shadow-lg hover:shadow' onClick={save}>Enviar</button>
+        <button className='w-8/12 self-center bg-teal-500 mt-12 mb-20 px-6 py-4 text-lg font-bold text-white rounded-lg shadow-lg hover:shadow' onClick={save}>Enviar</button>
       </div>
       }
       {sucess && <div className='w-1/5 mx-auto'>

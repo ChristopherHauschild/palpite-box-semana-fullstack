@@ -24,12 +24,14 @@ const Index = () => {
         </Link>
       </div>
 
-      {!data && <Loader />}
-      {!error && data && data.showCoupon &&
-        <p className='mt-12 text-center'>
-          {data.message}
-        </p>
-}
+      <div className='mt-20'>
+        {!data && <Loader />}
+        {!error && data && data.showCoupon &&
+          <p className='text-center text-lg'>
+            <i>{data.message}</i>
+          </p>
+        }
+      </div>
     </div>
   )
 }
