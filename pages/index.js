@@ -1,9 +1,17 @@
 import React from 'react'
 import Link from 'next/link'
 
+import useSWR from 'swr'
+import PageTitle from '../components/pageTitle'
+
+const fetcher = (...args) => fetch(...args).then(res => res.json())
+
 const Index = () => {
+  const { data, error } = useSWR('/api/get-promo', fetcher)
+
   return (
     <div>
+      <PageTitle title='Home' />
       <p className='mt-16 text-center'>
         O restaurante X sempre busca por atender melhor seus clientes. <br />
         Por isso, estamos sempre abertos a ouvir a sua opinião.
@@ -15,10 +23,12 @@ const Index = () => {
         </Link>
       </div>
 
-      <p className='mt-10 text-center'>
-        kskkskksk dsdam jdsjadjs aoe e ndand sjici ac epe 
-        sdmsamd heie n n nnn neieneein neneine
-      </p>
+      {!data && <p>Carregando...</p>}
+      {!error && data && data.showCoupon &&
+        <p className='mt-8 text-center'>
+          {data.message}
+        </p>
+}
     </div>
   )
 }
