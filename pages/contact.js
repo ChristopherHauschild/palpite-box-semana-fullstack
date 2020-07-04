@@ -18,7 +18,7 @@ const Contact = () => {
         />
 
       <ContactCard
-        imageSrc='/logo_portfolio.png'
+        imageSrc='/portfolio.png'
         imageAlt='Portfolio'
         link='https://christopher-hauschild.netlify.app/'
         title='Portfolio'
