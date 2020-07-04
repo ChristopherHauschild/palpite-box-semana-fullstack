@@ -34,7 +34,7 @@ Acesse o diretório `fronted` e rode o comando `yarn start` ou `npm start` para 
 ## Acessar aplicação: :link:
 
 O deploy da aplicação ficou à cargo do Vercel.
-#### Você pode acessá-la a partir deste <a href="">link</a>.
+#### Você pode acessá-la a partir deste <a href="https://palpite-box-semana-fullstack.vercel.app/">link</a>.
 
 <hr>
 
