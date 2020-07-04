@@ -23,18 +23,22 @@
 
 Clone este repositório ou faça o download do zip.
 
-`Backend`:
+Acesse o diretório raíz e rode o comando `npm install` ou `yarn` para instalar todas as dependências do projeto.
 
-Acesse o diretório `backend` e rode o comando `yarn start` ou `npm start` para ver o backend da aplicação em desenvolvimento no endereço `http:localhost:xxxx`
-
-`Frontend`:
-
-Acesse o diretório `fronted` e rode o comando `yarn start` ou `npm start` para ver o fronted da aplicação em `http:localhost:xxxx`
+Após, rode o comando `npm run dev` ou `yarn dev` para ver da aplicação em funcionamento em `http://localhost:3000`.
 
 ## Acessar aplicação: :link:
 
 O deploy da aplicação ficou à cargo do Vercel.
 #### Você pode acessá-la a partir deste <a href="https://palpite-box-semana-fullstack.vercel.app/">link</a>.
+
+## Incrementações:
+<ul>
+  <li>Implementei o componente Loader, responsável por renderizar um spinner enquanto as requisições são carregadas</li>
+  <li>Implementei as páginas Sobre e Contato</li>
+  <li>Adicionei às dependências react-input-mask para mascarar o campo de telefone</li>
+  <li>Pequenas refatorações no design da app</li>
+</ul>
 
 <hr>
 
