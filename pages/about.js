@@ -9,7 +9,7 @@ const About = () => {
 
       <div className='xs:flex'>
         <div className='xs:flex-shrink-2 px-4 md:px-20 lg:px-48'>
-          <img className='rounded-sm shadow-lg mx-auto' src='/project.png' alt='Palpite Box' />
+          <img className='rounded-sm shadow-lg mx-auto' src='/git.png' alt='Palpite Box' />
         </div>
         <div className='mt-12 mx-auto px-6 sm:px-12 md:px-24 lg:px-40'>
           <div className='mt-10 mx-auto'>
