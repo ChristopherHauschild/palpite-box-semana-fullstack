@@ -1,4 +1,6 @@
 import React, { useState } from 'react'
+import InputMask from 'react-input-mask'
+
 import PageTitle from '../components/pageTitle'
 
 const Search = () => {
@@ -47,13 +49,13 @@ const Search = () => {
       <PageTitle title='Pesquisa'/>
       <h1 className='text-center font-bold my-4 text-2xl'>Críticas e sugestões</h1>
 
-      <p className='mt-8 mb-6 text-center'>
+      <p className='mt-8 mb-8 text-center'>
         O restaurante X sempre busca por atender melhor seus clientes. <br />
         Por isso, estamos sempre abertos a ouvir a sua opinião.
       </p>
 
       {!sucess &&
-      <div className='w-1/5 mx-auto'>
+      <div className='flex flex-col justify-center mx-auto w-1/2 md:w-2/5'>
         <label className='font-bold'>Seu nome:</label>
         <input type='text' className='p-4 block shadow bg-blue-100 my-3 rounded' placeholder='Nome'
           onChange={onChange} name='name' value={form.name} />
@@ -61,22 +63,22 @@ const Search = () => {
         <input type='text' className='p-4 block shadow bg-blue-100 my-3 rounded' placeholder='E-mail'
           onChange={onChange} name='email' value={form.email} />
         <label className='font-bold'>Whatsapp:</label>
-        <input type='text' className='p-4 block shadow bg-blue-100 my-3 rounded' placeholder='Whatsapp'
+        <InputMask mask="(99) 99999 9999" type='text' className='p-4 block shadow bg-blue-100 my-3 rounded' placeholder='Whatsapp'
           onChange={onChange} name='whatsapp' value={form.whatsapp} />
         
         <label className='font-bold'>Nota:</label>
         {/* inputs radio de mesmo nome podem selecionar apenas um */}
-        <div className='flex py-6'>
+        <div className='flex justify-center py-6'>
           {grades.map(grade => {
             return (
-              <label key={grade} className='block w-1/6 text-center'>
+              <label key={grade} className='block w-12 text-center'>
                 {grade}<br />
                 <input type='radio' name='grade'value={grade} onChange={onChange} />
               </label>
             )})
           }
         </div>
-        <button className='bg-blue-400 px-6 py-4 font-bold rounded-lg shadow-lg hover:shadow' onClick={save}>Salvar</button>
+        <button className='bg-teal-500 mt-8 my-16 px-6 py-4 text-lg font-bold text-white rounded-lg shadow-lg hover:shadow' onClick={save}>Enviar</button>
       </div>
       }
       {sucess && <div className='w-1/5 mx-auto'>

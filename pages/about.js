@@ -13,7 +13,7 @@ const About = () => {
         </div>
         <div className='mt-12 mx-auto px-6 sm:px-12 md:px-24 lg:px-40'>
           <div className='mt-10 mx-auto'>
-            <div className='uppercase tracking-wide text-sm text-orange-600 font-bold'>PALPITE BOX</div>
+            <div className='uppercase tracking-wide text-sm text-teal-500 font-bold'>PALPITE BOX</div>
               <a href='https://github.com/ChristopherHauschild/palpite-box-semana-fullstack' target='_blank' className='block mt-1 text-base md:text-lg leading-tight font-semibold text-gray-900 hover:underline'>Ir para o repositório da aplicação</a>
               <p className='mt-2 text-xs sm:text-base text-gray-600'>
                 Aplicação desenvolvida utilizando as tecnologias React, NextJS, Node e Tailwind. A Semana Fullstack Master é mais um dos eventos disponibilizados pela plataforma DevPleno.
