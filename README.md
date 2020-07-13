@@ -25,7 +25,7 @@ Clone este repositório ou faça o download do zip.
 
 Acesse o diretório raíz e rode o comando `npm install` ou `yarn` para instalar todas as dependências do projeto.
 
-Após, rode o comando `npm run dev` ou `yarn dev` para ver da aplicação em funcionamento em `http://localhost:3000`.
+Após, rode o comando `npm run dev` ou `yarn dev` para ver a aplicação em funcionamento em `http://localhost:3000`.
 
 ## Incrementações: :pencil:
 <ul>
